@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------------------------------
--- HAIDARA Pierre & NASSE Martin 
+-- HAIDARA Pierre & NASSE Martin
 -- This script is to load all the data 
 ------------------------------------------------------------------------------------------------------
 
@@ -23,10 +23,11 @@ TRUNCATE TABLE data_catalogue;
 LOAD DATA INPATH '/user/cloudera/Data/Catalogue_20151101.csv' INTO TABLE data_catalogue;
 
 
--- load the data variant
-LOAD DATA INPATH '/user/cloudera/Data/Variant.csv' INTO TABLE data_variant;
-
-
 -- load the data data_weather
 
 LOAD DATA INPATH '/user/cloudera/Data/data_weather_20151101.csv' INTO TABLE data_weather;
+
+
+
+-- load the data variant
+LOAD DATA INPATH '/user/cloudera/Data/Variant.csv' INTO TABLE data_variant;
