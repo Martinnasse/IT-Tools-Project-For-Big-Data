@@ -49,12 +49,12 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ';'
 STORED AS TEXTFILE;
 
-
 -- structure of the table weather
-CREATE TABLE data_weather (index STRING, ville STRING, domaincode STRING, longitude DOUBLE, latitude DOUBLE, Date string,Weather DOUBLE, temperature DOUBLE)
+CREATE TABLE data_weather (index INT, ville STRING, longitude FLOAT, latitude FLOAT, Date TIMESTAMP, temperature FLOAT, Weather STRING)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-STORED AS TEXTFILE;
+STORED AS TEXTFILE
+tblproperties ("skip.header.line.count" = "1");
 
 
 
