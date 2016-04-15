@@ -13,6 +13,7 @@ You have:
 
 
 As result you have :
+
 1. One file for the final aggreates for customers: data_customer_final
 2. One file for the final aggregates for product: data_product_final
 3. One file for the final weather data : data_weather
