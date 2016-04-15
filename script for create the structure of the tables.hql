@@ -79,7 +79,7 @@ FIELDS TERMINATED BY ';'
 STORED AS TEXTFILE;
 
 
-CREATE TABLE product_final (productid INT,total_quantity INT, total_amount FLOAT, numberof_customers INT)
+CREATE TABLE data_product_final (productid INT,total_quantity INT, total_amount FLOAT, numberof_customers INT)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ';'
 STORED AS TEXTFILE;
