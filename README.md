@@ -1,5 +1,6 @@
 # IT-Tools-Project-For-Big-Datas
 
+Goal: The global aim in this project is to use the Hadoop ecosystem ( Hadoop, Hive, HDFS, python, Oozie) to perform data processing and analysing for decisions making. We have data from the customers, data from the product, data from the weather. All the process are schedule on Oozie in a way, it can run automaticaly to perform the specifics tasks.
 
 The files in this folder for a big data project we have done during our training at ENSAI in Master of Science in Big Data.
 
