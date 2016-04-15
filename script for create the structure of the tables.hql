@@ -1,4 +1,3 @@
-
 -- ---------------------------------------------------------------------------------------------------
 -- HAIDARA Pierre & NASSE Martin
 -- This script is to create the structure of all the tables
@@ -52,7 +51,7 @@ STORED AS TEXTFILE;
 
 
 -- structure of the table weather
-CREATE TABLE data_weather (ville STRING, domaincode STRING, longitude DOUBLE, latitude DOUBLE, Date string,Weather DOUBLE, temperature DOUBLE)
+CREATE TABLE data_weather (index STRING, ville STRING, domaincode STRING, longitude DOUBLE, latitude DOUBLE, Date string,Weather DOUBLE, temperature DOUBLE)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
